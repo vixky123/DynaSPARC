@@ -1,0 +1,46 @@
+{
+  "cfg": {
+    "l_freq": 0.5,
+    "h_freq": 15.0,
+    "sfreq": 128.0,
+    "tmin": -0.1,
+    "tmax": 0.8,
+    "baseline": [
+      -0.1,
+      0.0
+    ],
+    "search": [
+      0.25,
+      0.6
+    ],
+    "ref_window": [
+      0.3,
+      0.6
+    ],
+    "template": [
+      0.2,
+      0.6
+    ],
+    "half_win": 0.2,
+    "fixed_window": [
+      0.0,
+      0.8
+    ],
+    "decim": 4,
+    "top_k": 8,
+    "tau": 0.5,
+    "eps": 0.001
+  },
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sessions": null,
+  "demo": false
+}
